@@ -17,11 +17,13 @@ console.log(username)
             </button>
         </div>
         <div>
-            <NuxtLink to="/private">Private With Middleware</NuxtLink>
-        </div>
-        <div>
             <p v-if="status === 'authenticated'">Hello, {{ username }}</p>
             <p v-else>Hello, Guest</p>
         </div>
+        <div>
+            <pre>{{ status }}</pre>
+            <pre>{{ session }}</pre>
+            <pre>{{ cookies }}</pre>
+          </div>
     </div>
 </template>

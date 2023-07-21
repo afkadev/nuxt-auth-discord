@@ -9,8 +9,6 @@ const { signIn, session, status, cookies } = useAuth()
             <button @click="signIn(`discord`)">
                 Signin
             </button> | 
-            <NuxtLink to="/">Index Without middleware</NuxtLink> | 
-            <NuxtLink to="/private">Private With Middleware</NuxtLink>
         </div>
         <div>
             <pre>{{ status }}</pre>
