@@ -11,10 +11,11 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18.16.19",
+    "@vite-pwa/nuxt": "^0.1.0",
     "nuxt": "^3.6.5"
   },
   "dependencies": {
     "@auth/core": "^0.9.0",
-    "@hebilicious/authjs-nuxt": "^0.1.5"
+    "@hebilicious/authjs-nuxt": "^0.1.10"
   }
 }
